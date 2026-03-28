@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Adelia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<header class="navbar">
+  <h2 class="logo">Portfolio</h2>
+  <nav>
+    <a href="#about">Tentang</a>
+    <a href="#experience">Pengalaman</a>
+    <a href="#contact">Kontak</a>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-content">
+    <img src="foto.jpg" alt="Foto Adelia" class="profile">
+
+    <h1>Siti Adelia Safitri</h1>
+    <p>Mahasiswa Bisnis Digital | UI Enthusiast</p>
+
+    <button onclick="scrollToSection()">Lihat Pengalaman</button>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about">
+  <h2>Tentang Saya</h2>
+
+  <p>
+    Saya, Siti Adelia Safitri, merupakan mahasiswa semester 6 Fakultas Teknologi dan Bisnis 
+    Program Studi Bisnis Digital di Universitas Yatsi Madani. Saya memiliki pengalaman kerja 
+    yang variatif, mulai dari manajemen ritel hingga pendidikan anak usia dini.
+  </p>
+
+  <p>
+    Saya memiliki keterampilan analitis dalam pengelolaan keuangan menggunakan Microsoft Excel, 
+    kreativitas dalam pembuatan konten promosi, serta jiwa kepemimpinan yang terasah melalui 
+    berbagai pengalaman organisasi sejak masa SMA.
+  </p>
+
+  <p>
+    Saya terbiasa bekerja dalam tim, komunikatif, serta memiliki kepedulian sosial yang tinggi 
+    terhadap lingkungan sekitar. Selain itu, saya aktif dalam organisasi, pernah menjabat sebagai 
+    Ketua Divisi Kewirausahaan saat SMA, dan saat ini aktif dalam Himpunan Mahasiswa Bisnis Digital 
+    sebagai bagian dari Divisi Humas.
+  </p>
+
+</section>
+
+<!-- Experience -->
+<section id="experience">
+  <h2>Pengalaman</h2>
+
+  <div class="card">
+    <h3>Pengajar Anak Usia Dini</h3>
+    <p><strong>biMBA AIUEO & SAMRT Education Center</strong></p>
+    <ul>
+      <li>Menyusun materi pembelajaran kreatif untuk perkembangan kognitif dan sosial anak.</li>
+      <li>Membangun komunikasi efektif dengan orang tua terkait perkembangan anak.</li>
+      <li>Melatih kesabaran, public speaking, serta kemampuan manajemen kelas.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Karyawati Toko Pakaian</h3>
+    <ul>
+      <li>Bertanggung jawab atas manajemen stok barang dan memastikan ketersediaan produk.</li>
+      <li>Menata display produk agar menarik minat pelanggan.</li>
+      <li>Melakukan promosi langsung serta memberikan pelayanan prima kepada pelanggan.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Wirausaha Kuliner</h3>
+    <ul>
+      <li>Mengelola operasional arus kas (pemasukan & pengeluaran) secara akurat menggunakan metode manual dan Excel.</li>
+      <li>Mengembangkan strategi promosi untuk meningkatkan penjualan harian.</li>
+    </ul>
+  </div>
+
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <h2>kontak</h2>
+  <p>Email: adelsafitri847@email.com</p>
+  <p>Instagram: @sft_adl</p>
+
+  <button onclick="hubungi()">Hubungi Saya</button>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2026 Siti Adelia Safitri</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
